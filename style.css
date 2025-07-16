@@ -1,0 +1,24 @@
+body {
+	background-color: aquamarine;
+}
+#button {
+	width: 200px;
+	height: 35px;
+	background-color: blueviolet;
+	color: antiquewhite;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.wrapper > div {
+  color: blue; 
+  min-block-size: 80px;
+  background-color: blueviolet;
+  margin-bottom: 50px;
+}
