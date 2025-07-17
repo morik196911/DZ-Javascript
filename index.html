@@ -3,9 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./testStyle.css">
 	<title>Document</title>
+	<script src="./dom.js" defer></script>
+	<script src="./event.js" defer></script>
+	<script src="./lesson.js" defer></script>
+	
 </head>
 <body>
-	<h2>Hello world </h2>
+	<h2>Hello DOM </h2>
+	<button onclick="generate(event)">Enter Me Generate</button><br/><br/>
+	<button onclick="generate(event)" class="button">Enter Button with class</button>
+	
+	<hr/>
+<h2>Lesson</h2>
+<input type="text" onchange="search(event)">
+<div class="wrapper"></div>
 </body>
 </html>
