@@ -1,0 +1,25 @@
+{
+  "name": "dz-javascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"live-server --port=3000",
+    "build":"rollup index.js --file bundle.js --format iife",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morik196911/DZ-Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morik196911/DZ-Javascript/issues"
+  },
+  "homepage": "https://github.com/morik196911/DZ-Javascript#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "rollup": "^4.45.1"
+  }
+}
